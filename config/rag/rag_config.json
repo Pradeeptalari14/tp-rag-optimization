@@ -1,0 +1,10 @@
+{
+  "studioName": "Vector RAG Optimizer Studio",
+  "version": "1.0.0",
+  "status": "operational",
+  "environment": "staging",
+  "config": {
+    "execution": "cat rag_config.json",
+    "validation": "jq . rag_config.json"
+  }
+}
